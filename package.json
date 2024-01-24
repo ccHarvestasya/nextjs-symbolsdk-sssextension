@@ -7,12 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css}' && next lint --fix"
+    "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css}' && next lint --fix",
+    "postinstall": "patch-package"
   },
   "dependencies": {
+    "axios": "^1.6.5",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sss-module": "^1.0.4",
+    "symbol-crypto-wasm-web": "^0.1.1",
+    "symbol-sdk": "^3.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -23,6 +28,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "eslint-config-prettier": "^9.1.0",
+    "patch-package": "^8.0.0",
     "postcss": "^8",
     "prettier": "^3.2.4",
     "tailwindcss": "^3.3.0",

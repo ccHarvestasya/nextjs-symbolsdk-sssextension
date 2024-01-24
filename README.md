@@ -1,3 +1,8 @@
+# Next.js で Blockchain Symbol のトランザクションを作って SSS Extension で署名する
+
+Qiitaで公開した、以下の記事のコードです。  
+[Next.js で Blockchain Symbol のトランザクションを作って SSS Extension で署名する](https://qiita.com/ccHarvestasya/items/77a1df75ae9b123b2f83)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
